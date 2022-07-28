@@ -45,7 +45,7 @@
                   <input type="text" id="lname" name="lastname" placeholder="Ton nom.." required>
 
                   <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="Ton email.." required>
+                  <input type="email" id="email" name="email" placeholder="Ton email.." required>
               
                   <label for="city">Ville</label>
                   <select id="city" name="city">
@@ -55,18 +55,39 @@
                   </select>
               
                   <label for="subject">Sujet</label>
-                  <textarea id="subject" name="subject" placeholder="Explique-moi tout..." style="height:100px "></textarea>
+                  <textarea id="subject" name="subject" placeholder="Explique-moi tout..." style="height:100px " required></textarea>
 
                   <input type="hidden" name="_next" value="https://pierrelegoux.fr/thanks.html">
                   
                   <input type="hidden" name="_subject" value="Nouvel email, yataaaaah !">
                   <input type="hidden" name="_captcha" value="false">
                   <input type="hidden" name="_webhook" value="https://events.hookdeck.com/e/src_mnJzVTFPYx6K">
+                  
               
                   <!-- <input type="submit" value="Submit"> -->
                   <button type="submit">Envoyer</button>
               
                 </form>
+
+<br><br><br><br>
+              <h1> Ceci est le deuxieme contact form, avec une autre techno. Merci de le compléter 😉 </h1>
+                <form action="https://formspree.io/f/mpzbvvnp" method="POST">
+                            <label>
+                              Your email:
+                              <input type="email" name="email" placeholder="piou piou">
+                            </label>
+                            <br><br>
+                            <label>
+                              Ton prénom
+                              <textarea name="prenom" placeholder="zoulou poutou hibou"></textarea>
+                            </label>
+                            <label>
+                              Your message:
+                              <textarea name="message" placeholder="caca prout"></textarea>
+                            </label>
+                            <!-- your other form fields go here -->
+                            <button type="submit">Send</button>
+                          </form>
               </div>
 
         </div>
